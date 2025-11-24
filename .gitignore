@@ -1,0 +1,11 @@
+.idea
+.env
+/vscode-data
+/.devcontainer/*
+!/.devcontainer/devcontainer.example.json
+!/.devcontainer/docker-compose.extend-example.yml
+Dockerfile-*
+start-*.sh
+docker-compose.*.yml
+
+.DS_Store

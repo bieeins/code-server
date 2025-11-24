@@ -11,7 +11,7 @@ services:
       - HOST=0.0.0.0
       - TZ=Asia/Jakarta
       - SERVER_DATA_DIR=/home/vscodeuser/.vscode-server
-      - CONNECTION_TOKEN=Rahasia2025
+      - CONNECTION_TOKEN=isikan-code-server-token
     volumes:
       - /home/benny:/workspaces/benny
       - /home/docker:/workspaces/docker

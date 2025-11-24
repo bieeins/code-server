@@ -1,7 +1,6 @@
-# Gunakan Alpine (ringan, cocok dengan cli-alpine-x64)
 FROM alpine:3.20
 
-# Install dependency dasar
+# Install dependency
 RUN apk add --no-cache \
     ca-certificates \
     curl \
@@ -14,13 +13,13 @@ RUN apk add --no-cache \
     nodejs \
     npm
 
-# Install VS Code CLI (ALPINE x64, build resmi)
+# Install VS Code CLI
 RUN curl -fL "https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64" \
       -o /tmp/vscode_cli_alpine_x64_cli.tar.gz \
     && tar -xzf /tmp/vscode_cli_alpine_x64_cli.tar.gz -C /usr/local/bin \
     && rm /tmp/vscode_cli_alpine_x64_cli.tar.gz
 
-# Install PHP 8.2 full extension (Laravel + CodeIgniter)
+# Install PHP 8.2 extension
 RUN apk update && apk add --no-cache \
     php82 php82-cli php82-common php82-phar \
     php82-mbstring php82-xml php82-xmlwriter php82-dom \
@@ -36,7 +35,7 @@ RUN apk update && apk add --no-cache \
     && php -r "unlink('composer-setup.php');"
 
 
-# Tambah user non-root dengan UID 1001 (sama dengan user benny di host)
+# Tambah user non-root dengan UID ( tergantung uuid dari host )
 RUN addgroup -g 1001 vscode \
     && adduser -D -u 1001 -G vscode vscodeuser \
     && echo "vscodeuser ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers \
