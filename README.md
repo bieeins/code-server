@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository hosts a Docker setup for deploying an official installation of Visual Studio Code Server using a container. By leveraging the `serve-web` feature of Visual Studio Code, this setup provides an instance of VS Code accessible through a web browser. The base image used is **Debian**, ensuring a light, stable and familiar environment for development. Included in this setup are a Dockerfile and a docker-compose.yml file, simplifying the deployment process.
+This repository hosts a Docker setup for deploying an official installation of Visual Studio Code Server using a container. By leveraging the `serve-web` feature of Visual Studio Code, this setup provides an instance of VS Code accessible through a web browser. The base image used is **Alpine Linux 3.20**.
 
 **Note:** This setup aims to maintain compatibility with all Visual Studio Code extensions, including those like GitHub Copilot Chat, by using the official version of VS Code Server. It is designed with the intention to support the full range of VS Code features and extensions without the limitations often encountered in non-official installations.
 
@@ -18,11 +18,6 @@ Before you begin, ensure you have the following installed:
 
 ### Pull image from Docker Package Registry
 
-To pull the pre-built image from Docker Package Registry, execute the following command:
-
-```bash
-docker pull ghcr.io/nerasse/my-code-server:main
-```
 
 ### Building the Docker Image
 
@@ -96,7 +91,7 @@ The following environment variables can be configured:
 | `LOG_LEVEL` | Log level (trace, debug, info, warn, error, critical, off) | - |
 | `CLI_DATA_DIR` | Directory where CLI metadata should be stored | - |
 
-## Setup: Nginx Reverse Proxy Configuration
+## Setup: Nginx Proxy Manager Configuration
 
 To access the VS Code Server (also securely with a domain name and SSL):
 
@@ -168,6 +163,4 @@ Access via `https://my-code-server.domain.com` plus `?tkn=sometoken` in the URL 
 
 **Replace all passwords and tokens with secure values. Please be aware of the security implications of using default or published credentials on repositories.**
 
-## Contributing
 
-Contributions are welcome!

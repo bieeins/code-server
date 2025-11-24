@@ -15,8 +15,9 @@ services:
     volumes:
       - /home/benny:/workspaces/benny
       - /home/docker:/workspaces/docker
-      - /home/docker/lara-docker:/workspaces/lb
+      # - /home/docker/lara-docker:/workspaces/lb
       - /home/docker/code-server/vscode-data:/home/vscodeuser/.vscode-server
+      - /home/docker/code-server/vscode-web:/home/vscodeuser/.vscode
       # MOUNT SSH dari host
       - /home/benny/.ssh:/home/vscodeuser/.ssh:ro
     networks:

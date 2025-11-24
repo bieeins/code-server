@@ -1,6 +1,7 @@
 .idea
 .env
 /vscode-data/*
+/vscode-web/*
 /.devcontainer/*
 !/.devcontainer/devcontainer.example.json
 !/.devcontainer/docker-compose.extend-example.yml
