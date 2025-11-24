@@ -1,0 +1,49 @@
+2025-11-24 13:05:57.420 [info] 
+
+
+
+
+2025-11-24 13:05:57.430 [info] Extension host agent started.
+2025-11-24 13:06:03.275 [info] [<unknown>][01ba4706][ManagementConnection] New connection established.
+2025-11-24 13:06:03.448 [info] [<unknown>][a9389d0b][ExtensionHostConnection] New connection established.
+2025-11-24 13:06:03.452 [info] [<unknown>][a9389d0b][ExtensionHostConnection] <1462> Launched Extension Host Process.
+2025-11-24 13:06:12.593 [error] #6: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 13:06:20.966 [error] #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 13:06:35.212 [error] #9: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 13:15:41.272 [info] [<unknown>][01ba4706][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-24 13:15:41.340 [info] [<unknown>][a9389d0b][ExtensionHostConnection] <1462> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 13:15:44.696 [info] [<unknown>][8cc47a99][ManagementConnection] New connection established.
+2025-11-24 13:15:44.991 [info] [<unknown>][38cc5543][ExtensionHostConnection] New connection established.
+2025-11-24 13:15:44.994 [info] [<unknown>][38cc5543][ExtensionHostConnection] <1631> Launched Extension Host Process.
+2025-11-24 13:16:36.910 [info] [<unknown>][8cc47a99][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-24 13:16:36.968 [info] [<unknown>][38cc5543][ExtensionHostConnection] <1631> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 13:16:37.701 [info] [<unknown>][82e1eff8][ManagementConnection] New connection established.
+2025-11-24 13:16:37.922 [info] [<unknown>][039ded50][ExtensionHostConnection] New connection established.
+2025-11-24 13:16:37.925 [info] [<unknown>][039ded50][ExtensionHostConnection] <1755> Launched Extension Host Process.
+2025-11-24 13:16:55.774 [error] #46: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 13:17:32.078 [info] [<unknown>][82e1eff8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-24 13:17:32.127 [info] [<unknown>][039ded50][ExtensionHostConnection] <1755> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 13:17:32.762 [info] [<unknown>][b18735c2][ManagementConnection] New connection established.
+2025-11-24 13:17:33.040 [info] [<unknown>][f635b8a4][ExtensionHostConnection] New connection established.
+2025-11-24 13:17:33.045 [info] [<unknown>][f635b8a4][ExtensionHostConnection] <1806> Launched Extension Host Process.
+2025-11-24 13:18:08.214 [info] [<unknown>][b18735c2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-24 13:18:08.263 [info] [<unknown>][f635b8a4][ExtensionHostConnection] <1806> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 13:18:08.915 [info] [<unknown>][332b30d2][ManagementConnection] New connection established.
+2025-11-24 13:18:09.095 [info] [<unknown>][dd2ab1ff][ExtensionHostConnection] New connection established.
+2025-11-24 13:18:09.097 [info] [<unknown>][dd2ab1ff][ExtensionHostConnection] <1892> Launched Extension Host Process.
+2025-11-24 13:26:37.898 [info] [<unknown>][e6ec959c][ManagementConnection] New connection established.
+2025-11-24 13:26:38.079 [info] [<unknown>][8ce22557][ExtensionHostConnection] New connection established.
+2025-11-24 13:26:38.082 [info] [<unknown>][8ce22557][ExtensionHostConnection] <2056> Launched Extension Host Process.
+2025-11-24 13:27:17.152 [info] [<unknown>][e6ec959c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-24 13:27:17.201 [info] [<unknown>][8ce22557][ExtensionHostConnection] <2056> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 13:27:17.838 [info] [<unknown>][f0b5d6d7][ManagementConnection] New connection established.
+2025-11-24 13:27:18.045 [info] [<unknown>][60c7d479][ExtensionHostConnection] New connection established.
+2025-11-24 13:27:18.048 [info] [<unknown>][60c7d479][ExtensionHostConnection] <2108> Launched Extension Host Process.
+2025-11-24 13:27:35.756 [error] #91: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 13:27:43.187 [error] #92: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 13:37:24.108 [error] #114: https://main.vscode-cdn.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2025-11-24 13:37:26.087 [error] #115: https://main.vscode-cdn.net/extensions/chat.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2025-11-24 13:37:29.113 [error] #116: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 13:38:03.203 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-11-24 13:38:03.203 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-11-24 13:53:14.026 [error] #133: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com

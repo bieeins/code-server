@@ -1,0 +1,31 @@
+services:
+  vscode-server:
+    build:
+      context: .
+    container_name: code-server
+    restart: unless-stopped
+    # ports:
+      # - "8585:8585"
+    environment:
+      - PORT=8585
+      - HOST=0.0.0.0
+      - TZ=Asia/Jakarta
+      - SERVER_DATA_DIR=/home/vscodeuser/.vscode-server
+      - CONNECTION_TOKEN=Rahasia2025
+    volumes:
+      - /home/benny:/workspaces/benny
+      - /home/docker:/workspaces/docker
+      - /home/docker/lara-docker:/workspaces/lb
+      - /home/docker/code-server/vscode-data:/home/vscodeuser/.vscode-server
+      # MOUNT SSH dari host
+      - /home/benny/.ssh:/home/vscodeuser/.ssh:ro
+    networks:
+      - vscode-server-network
+      - npm_npm_net
+
+networks:
+  vscode-server-network:
+    driver: bridge
+  npm_npm_net:
+    external: true
+    name: npm_npm_net

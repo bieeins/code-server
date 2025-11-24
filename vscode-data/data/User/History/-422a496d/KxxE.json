@@ -1,0 +1,7 @@
+{
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Mayukai Semantic Mirage",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace"
+}

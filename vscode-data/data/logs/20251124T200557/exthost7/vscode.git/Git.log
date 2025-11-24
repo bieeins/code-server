@@ -1,0 +1,148 @@
+2025-11-24 13:27:19.840 [info] [main] Log level: Info
+2025-11-24 13:27:19.841 [info] [main] Validating found git in: "git"
+2025-11-24 13:27:19.841 [info] [main] Using git "2.45.4" from "git"
+2025-11-24 13:27:19.841 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-24 13:27:19.841 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-24 13:27:19.841 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [319ms]
+2025-11-24 13:27:19.841 [info] [Model][openRepository] Opened repository (path): /workspaces/docker/code-server
+2025-11-24 13:27:19.841 [info] [Model][openRepository] Opened repository (real path): /workspaces/docker/code-server
+2025-11-24 13:27:19.841 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-24 13:27:19.841 [info] > git config --get commit.template [1ms]
+2025-11-24 13:27:19.841 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-24 13:27:19.841 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-24 13:27:19.841 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-24 13:27:19.841 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-11-24 13:27:19.841 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/docker/code-server/.git/refs/remotes/origin/main'
+2025-11-24 13:27:19.841 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-24 13:27:19.841 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-24 13:27:19.957 [info] > git status -z -uall [120ms] (cancelled)
+2025-11-24 13:27:20.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-11-24 13:27:20.084 [info] > git config --get commit.template [3ms]
+2025-11-24 13:27:20.084 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2025-11-24 13:27:20.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2025-11-24 13:27:21.078 [info] > git merge-base refs/heads/main refs/remotes/origin/main [989ms]
+2025-11-24 13:27:21.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [994ms]
+2025-11-24 13:27:21.087 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/docker/code-server/.git/refs/remotes/origin/main'
+2025-11-24 13:27:21.088 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-24 13:27:21.089 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% fbbc49f34908d736ed1849039c3a5d9f4bd799f3...refs/remotes/origin/main -- [8ms]
+2025-11-24 13:27:21.090 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-11-24 13:27:21.097 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-24 13:27:21.298 [info] > git status -z -uall [206ms] (cancelled)
+2025-11-24 13:27:26.688 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [8ms]
+2025-11-24 13:27:27.073 [info] > git merge-base main origin/main [1ms]
+2025-11-24 13:27:27.200 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-24 13:27:47.902 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-24 13:27:53.667 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% d2d9b60d6a2a42939818cb62451879d44c0b3f0c...fbbc49f34908d736ed1849039c3a5d9f4bd799f3 -- [4ms]
+2025-11-24 13:27:54.252 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-24 13:27:55.960 [info] > git show --textconv d2d9b60d6a2a42939818cb62451879d44c0b3f0c:Dockerfile [6ms]
+2025-11-24 13:27:55.960 [info] > git show --textconv fbbc49f34908d736ed1849039c3a5d9f4bd799f3:Dockerfile [4ms]
+2025-11-24 13:27:55.960 [info] > git ls-tree -l d2d9b60d6a2a42939818cb62451879d44c0b3f0c -- Dockerfile [3ms]
+2025-11-24 13:27:55.961 [info] > git ls-tree -l fbbc49f34908d736ed1849039c3a5d9f4bd799f3 -- Dockerfile [2ms]
+2025-11-24 13:27:56.469 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-24 13:28:06.184 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% cc425db49733955538eca4a0de2607f5516ba452...d2d9b60d6a2a42939818cb62451879d44c0b3f0c -- [1ms]
+2025-11-24 13:28:06.777 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-24 13:28:07.706 [info] > git show --textconv cc425db49733955538eca4a0de2607f5516ba452:.github/workflows/docker-publish.yml [5ms]
+2025-11-24 13:28:07.706 [info] > git show --textconv d2d9b60d6a2a42939818cb62451879d44c0b3f0c:.github/workflows/docker-publish.yml [3ms]
+2025-11-24 13:28:07.706 [info] > git ls-tree -l cc425db49733955538eca4a0de2607f5516ba452 -- .github/workflows/docker-publish.yml [2ms]
+2025-11-24 13:28:07.708 [info] > git ls-tree -l d2d9b60d6a2a42939818cb62451879d44c0b3f0c -- .github/workflows/docker-publish.yml [3ms]
+2025-11-24 13:28:07.838 [info] > git blame --root --incremental d2d9b60d6a2a42939818cb62451879d44c0b3f0c -- .github/workflows/docker-publish.yml [3ms]
+2025-11-24 13:28:08.216 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-24 13:28:17.754 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 854b11806f381054237fa7f455f3f77572f75501...cc425db49733955538eca4a0de2607f5516ba452 -- [4ms]
+2025-11-24 13:28:18.332 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-24 13:28:19.575 [info] > git show --textconv 854b11806f381054237fa7f455f3f77572f75501:README.md [5ms]
+2025-11-24 13:28:19.575 [info] > git show --textconv cc425db49733955538eca4a0de2607f5516ba452:README.md [4ms]
+2025-11-24 13:28:19.575 [info] > git ls-tree -l 854b11806f381054237fa7f455f3f77572f75501 -- README.md [3ms]
+2025-11-24 13:28:19.576 [info] > git ls-tree -l cc425db49733955538eca4a0de2607f5516ba452 -- README.md [2ms]
+2025-11-24 13:28:19.766 [info] > git blame --root --incremental cc425db49733955538eca4a0de2607f5516ba452 -- README.md [4ms]
+2025-11-24 13:28:20.162 [info] > git check-ignore -v -z --stdin [1ms]
+2025-11-24 13:28:20.920 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 6d7cf1c47f59d5f9a7819ad1b91264ee6787950d...1a766b1095a2f8c4d5edf4d0717b14d25f946d2f -- [4ms]
+2025-11-24 13:28:21.488 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-24 13:28:22.106 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 3df7395027b5a489ca6d4178898d6e8b9c85189b...6d7cf1c47f59d5f9a7819ad1b91264ee6787950d -- [5ms]
+2025-11-24 13:28:22.684 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-24 13:28:23.592 [info] > git show --textconv 3df7395027b5a489ca6d4178898d6e8b9c85189b:.github/workflows/docker-publish.yml [5ms]
+2025-11-24 13:28:23.592 [info] > git show --textconv 6d7cf1c47f59d5f9a7819ad1b91264ee6787950d:.github/workflows/docker-publish.yml [4ms]
+2025-11-24 13:28:23.592 [info] > git ls-tree -l 3df7395027b5a489ca6d4178898d6e8b9c85189b -- .github/workflows/docker-publish.yml [3ms]
+2025-11-24 13:28:23.593 [info] > git ls-tree -l 6d7cf1c47f59d5f9a7819ad1b91264ee6787950d -- .github/workflows/docker-publish.yml [2ms]
+2025-11-24 13:28:23.744 [info] > git blame --root --incremental 6d7cf1c47f59d5f9a7819ad1b91264ee6787950d -- .github/workflows/docker-publish.yml [3ms]
+2025-11-24 13:28:24.101 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-24 13:28:35.587 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-24 13:28:38.062 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-24 13:28:43.223 [info] > git show --textconv :start.sh [5ms]
+2025-11-24 13:28:43.227 [info] > git ls-files --stage -- start.sh [6ms]
+2025-11-24 13:28:43.234 [info] > git cat-file -s b6575816e0189075b71b81c335941c409238362e [3ms]
+2025-11-24 13:28:49.940 [info] > git show --textconv :README.md [5ms]
+2025-11-24 13:28:49.941 [info] > git ls-files --stage -- README.md [2ms]
+2025-11-24 13:28:49.947 [info] > git cat-file -s bb4686f13be1d5fd886221e0ebd6527cf5d5bc6e [2ms]
+2025-11-24 13:29:31.434 [info] > git blame --root --incremental fbbc49f34908d736ed1849039c3a5d9f4bd799f3 -- README.md [5ms]
+2025-11-24 13:35:54.947 [info] > git show --textconv :.github/workflows/docker-publish.yml [6ms]
+2025-11-24 13:35:54.949 [info] > git ls-files --stage -- .github/workflows/docker-publish.yml [3ms]
+2025-11-24 13:35:54.955 [info] > git cat-file -s f93ca902850562ad4398d3603334d40f64680f38 [3ms]
+2025-11-24 13:36:04.158 [info] > git show --textconv :docker-compose.yml [5ms]
+2025-11-24 13:36:04.160 [info] > git ls-files --stage -- docker-compose.yml [3ms]
+2025-11-24 13:36:04.167 [info] > git cat-file -s 2d1acd277d73454b4d735c1a5f1268157a4ae8d1 [3ms]
+2025-11-24 13:36:11.031 [info] > git show --textconv :Dockerfile [5ms]
+2025-11-24 13:36:11.032 [info] > git ls-files --stage -- Dockerfile [3ms]
+2025-11-24 13:36:11.038 [info] > git cat-file -s 6e140b55d5e8084e49eb1938e12a8fa8428caba5 [3ms]
+2025-11-24 13:36:28.782 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [8ms]
+2025-11-24 13:36:28.858 [info] > git merge-base main origin/main [4ms]
+2025-11-24 13:36:28.968 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 6d7cf1c47f59d5f9a7819ad1b91264ee6787950d...1a766b1095a2f8c4d5edf4d0717b14d25f946d2f -- [2ms]
+2025-11-24 13:36:28.969 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 854b11806f381054237fa7f455f3f77572f75501...cc425db49733955538eca4a0de2607f5516ba452 -- [6ms]
+2025-11-24 13:36:28.969 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% d2d9b60d6a2a42939818cb62451879d44c0b3f0c...fbbc49f34908d736ed1849039c3a5d9f4bd799f3 -- [12ms]
+2025-11-24 13:36:28.970 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 3df7395027b5a489ca6d4178898d6e8b9c85189b...6d7cf1c47f59d5f9a7819ad1b91264ee6787950d -- [2ms]
+2025-11-24 13:36:33.952 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [8ms]
+2025-11-24 13:36:34.023 [info] > git merge-base main origin/main [2ms]
+2025-11-24 13:36:34.146 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 6d7cf1c47f59d5f9a7819ad1b91264ee6787950d...1a766b1095a2f8c4d5edf4d0717b14d25f946d2f -- [7ms]
+2025-11-24 13:36:34.147 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 854b11806f381054237fa7f455f3f77572f75501...cc425db49733955538eca4a0de2607f5516ba452 -- [12ms]
+2025-11-24 13:36:34.149 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% d2d9b60d6a2a42939818cb62451879d44c0b3f0c...fbbc49f34908d736ed1849039c3a5d9f4bd799f3 -- [18ms]
+2025-11-24 13:36:34.150 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 3df7395027b5a489ca6d4178898d6e8b9c85189b...6d7cf1c47f59d5f9a7819ad1b91264ee6787950d -- [5ms]
+2025-11-24 13:36:45.399 [info] > git blame --root --incremental fbbc49f34908d736ed1849039c3a5d9f4bd799f3 -- Dockerfile [5ms]
+2025-11-24 13:38:12.544 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2025-11-24 13:38:12.544 [info] fatal: not a git repository (or any parent up to mount point /workspaces)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-24 13:38:12.547 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["fbbc49f34908d736ed1849039c3a5d9f4bd799f3","fbbc49f34908d736ed1849039c3a5d9f4bd799f3"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /workspaces)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+2025-11-24 13:38:12.645 [error] [GitHistoryProvider][resolveHistoryItemRefsCommonAncestor] Failed to resolve common ancestor for main,origin/main: Error: Repository not initialized
+2025-11-24 13:53:06.884 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-24 13:53:06.893 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2025-11-24 13:53:06.909 [info] [Model][openRepository] Opened repository (path): /workspaces/docker/code-server
+2025-11-24 13:53:06.909 [info] [Model][openRepository] Opened repository (real path): /workspaces/docker/code-server
+2025-11-24 13:53:06.909 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-24 13:53:06.916 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-24 13:53:06.921 [info] > git config --get commit.template [5ms]
+2025-11-24 13:53:06.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-11-24 13:53:06.922 [warning] [Git][getBranch] No such branch: master
+2025-11-24 13:53:06.932 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-24 13:53:07.198 [info] > git status -z -uall [272ms] (cancelled)
+2025-11-24 13:53:07.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-11-24 13:53:07.200 [warning] [Git][getBranch] No such branch: master
+2025-11-24 13:53:07.201 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-11-24 13:53:08.134 [info] > git config --get commit.template [934ms]
+2025-11-24 13:53:08.143 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-24 13:53:08.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-11-24 13:53:08.144 [warning] [Git][getBranch] No such branch: master
+2025-11-24 13:53:08.150 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-24 13:53:08.224 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [4ms]
+2025-11-24 13:53:08.224 [info] fatal: bad revision 'refs/heads/master'
+2025-11-24 13:53:08.225 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-11-24 13:53:08.340 [info] > git status -z -uall [194ms] (cancelled)
+2025-11-24 13:53:09.333 [info] > git check-ignore -v -z --stdin [8ms]
+2025-11-24 13:53:10.074 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-24 13:54:01.836 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-24 13:54:08.199 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-11-24 13:54:08.199 [info] fatal: bad revision 'refs/heads/master'
+2025-11-24 13:54:08.199 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}

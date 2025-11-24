@@ -1,0 +1,49 @@
+services:
+  vscode:
+    build:
+      context: .
+      dockerfile: ./docker/vscode.Dockerfile
+    # image: ghcr.io/linuxserver/code-server:latest
+    container_name: vscode
+    environment:
+      - PUID=1001         # UID user acer-ubuntu (cek: id -u)
+      - PGID=1001         # GID user acer-ubuntu (cek: id -g)
+      - TZ=Asia/Jakarta
+      - PASSWORD=Rahasia007   # atau pakai HASHED_PASSWORD
+      # - HASHED_PASSWORD=...
+    volumes:
+      # config & extensions VS Code
+      - /home/benny/vscode/vscode-config:/config
+
+      # projek-projek yang mau diedit
+      #- /home/acer-ubuntu/sewa-ruang/src:/workspace/sewa-ruang
+        #- /home/acer-ubuntu/tryout/src:/workspace/tryout
+        #- /home/acer-ubuntu/lb-docker/.application:/workspace/var-www
+      - /home/benny:/workspaces/home
+      - /home/docker:/workspaces/docker
+
+      # (opsional) folder workspace .code-workspace
+      # - /home/acer-ubuntu/workspaces:/workspaces
+
+      # MOUNT SSH dari host
+      - /home/acer-ubuntu/.ssh:/config/.ssh:ro
+      - /home/benny/.ssh:/home/vscodeuser/.ssh:ro
+
+    # code-server listen di 8443 di dalam container
+    ports:
+      - "9999:8443"  
+
+    restart: unless-stopped
+
+    # kalau mau join ke network yang sama dengan app lain
+    networks:
+      - apps_backend
+      - npm_npm_net
+
+networks:
+  apps_backend:
+    external: true
+    name: apps_backend
+  npm_npm_net:
+    external: true
+    name: npm_npm_net

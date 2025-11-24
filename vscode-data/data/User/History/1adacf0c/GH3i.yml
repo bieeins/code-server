@@ -1,0 +1,45 @@
+#version: '3'
+
+services:
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    restart: unless-stopped
+    ports:
+      - "9990:80"  # Port 8080 di host, bisa diganti (misal: 80:80 jika tidak dipakai)
+    volumes:
+      - /mnt/data/nextcloud:/var/www/html
+      #- ./nextcloud:/var/www/html  # Data Nextcloud disimpan di folder ./nextcloud
+      - ./apps:/var/www/html/custom_apps  # Untuk instalasi app tambahan
+      - ./config:/var/www/html/config  # Konfigurasi Nextcloud
+      - ./data:/var/www/html/data  # File yang diunggah pengguna
+    environment:
+      - MYSQL_HOST=nextcloud_db
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=Secret123  # Ganti dengan password kuat!
+      - NEXTCLOUD_TRUSTED_DOMAINS=nextcloud.dev-app.unri.ac.id  # Ganti dengan IP/domain server
+    networks:
+      - shared_net
+
+  nextcloud_db:
+    image: mariadb:latest
+    container_name: nextcloud_db
+    restart: unless-stopped
+    volumes:
+      - ./db:/var/lib/mysql  # Database disimpan di folder ./db
+    environment:
+      - MYSQL_ROOT_PASSWORD=Secret321  # Ganti dengan password kuat!
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=Secret123 # Harus sama dengan di service Nextcloud
+
+  nextcloud_redis:
+    image: redis:alpine
+    container_name: nextcloud_redis
+    restart: unless-stopped
+
+networks:
+  shared_net:
+    external: true
+    name: shared_network

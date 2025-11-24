@@ -1,0 +1,72 @@
+2025-11-24 07:55:16.351 [info] 
+
+
+
+
+2025-11-24 07:55:16.361 [info] Extension host agent started.
+2025-11-24 07:55:18.971 [info] [<unknown>][9f2ca40d][ManagementConnection] New connection established.
+2025-11-24 07:55:18.972 [info] [<unknown>][4b82b16d][ExtensionHostConnection] New connection established.
+2025-11-24 07:55:18.975 [info] [<unknown>][4b82b16d][ExtensionHostConnection] <936> Launched Extension Host Process.
+2025-11-24 07:55:24.058 [error] #2: https://main.vscode-cdn.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2025-11-24 07:55:37.500 [info] [<unknown>][9f2ca40d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-24 07:55:37.541 [info] [<unknown>][4b82b16d][ExtensionHostConnection] <936> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 07:55:38.242 [info] [<unknown>][d7b849ea][ExtensionHostConnection] New connection established.
+2025-11-24 07:55:38.243 [info] [<unknown>][78b98fec][ManagementConnection] New connection established.
+2025-11-24 07:55:38.247 [info] [<unknown>][d7b849ea][ExtensionHostConnection] <957> Launched Extension Host Process.
+2025-11-24 07:58:53.686 [info] Getting Manifest... openai.chatgpt
+2025-11-24 07:58:55.196 [info] Installing extension: openai.chatgpt {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/vscodeuser/.vscode-server/extensions/extensions.json","external":"file:///home/vscodeuser/.vscode-server/extensions/extensions.json","path":"/home/vscodeuser/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.106.2","date":"2025-11-19T16:56:50.023Z"}}
+2025-11-24 07:59:00.377 [error] #20: https://openai.gallery.vsassets.io/_apis/public/gallery/publisher/openai/extension/chatgpt/0.4.46/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&targetPlatform=alpine-x64&install=true - error GET getaddrinfo EAI_AGAIN openai.gallery.vsassets.io
+2025-11-24 07:59:09.204 [error] #22: https://openai.gallery.vsassets.io/_apis/public/gallery/publisher/openai/extension/chatgpt/0.4.46/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=alpine-x64&install=true - error GET getaddrinfo EAI_AGAIN openai.gallerycdn.vsassets.io
+2025-11-24 07:59:09.206 [warning] Failed downloading vsix. getaddrinfo EAI_AGAIN openai.gallerycdn.vsassets.io. Retry again... openai.chatgpt
+2025-11-24 07:59:23.594 [error] #25: https://openai.gallerycdn.azure.cn/extensions/openai/chatgpt/0.4.46/1763604982298/Microsoft.VisualStudio.Services.VsixSignature?targetPlatform=alpine-x64 - error GET getaddrinfo EAI_AGAIN openai.gallerycdn.azure.cn
+2025-11-24 07:59:28.601 [error] #27: https://openai.gallery.vsassets.io/_apis/public/gallery/publisher/openai/extension/chatgpt/0.4.46/assetbyname/Microsoft.VisualStudio.Services.VsixSignature?targetPlatform=alpine-x64 - error GET getaddrinfo EAI_AGAIN openai.gallery.vsassets.io
+2025-11-24 07:59:28.602 [warning] Failed downloading sigzip. getaddrinfo EAI_AGAIN openai.gallery.vsassets.io. Retry again... openai.chatgpt
+2025-11-24 07:59:32.692 [info] Extension signature verification result for openai.chatgpt: Success. Internal Code: 0. Executed: true. Duration: 624ms.
+2025-11-24 07:59:33.226 [info] Extracted extension to file:///home/vscodeuser/.vscode-server/extensions/openai.chatgpt-0.4.46-alpine-x64: openai.chatgpt
+2025-11-24 07:59:33.297 [info] Renamed to /home/vscodeuser/.vscode-server/extensions/openai.chatgpt-0.4.46-alpine-x64
+2025-11-24 07:59:33.369 [info] Extension installed successfully: openai.chatgpt file:///home/vscodeuser/.vscode-server/extensions/extensions.json
+2025-11-24 07:59:39.073 [error] #30: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 08:01:27.935 [info] [<unknown>][3e4a0f0d][ManagementConnection] New connection established.
+2025-11-24 08:01:27.936 [info] [<unknown>][afe7989e][ExtensionHostConnection] New connection established.
+2025-11-24 08:01:27.940 [info] [<unknown>][afe7989e][ExtensionHostConnection] <1087> Launched Extension Host Process.
+2025-11-24 08:02:04.739 [info] [<unknown>][3e4a0f0d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-24 08:02:04.785 [info] [<unknown>][afe7989e][ExtensionHostConnection] <1087> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 08:02:05.202 [info] [<unknown>][bfc254e8][ExtensionHostConnection] New connection established.
+2025-11-24 08:02:05.207 [info] [<unknown>][bfc254e8][ExtensionHostConnection] <1197> Launched Extension Host Process.
+2025-11-24 08:02:05.210 [info] [<unknown>][ee300dc1][ManagementConnection] New connection established.
+2025-11-24 08:04:33.745 [info] Getting Manifest... supermaven.supermaven
+2025-11-24 08:04:33.878 [info] Installing extension: supermaven.supermaven {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/vscodeuser/.vscode-server/extensions/extensions.json","external":"file:///home/vscodeuser/.vscode-server/extensions/extensions.json","path":"/home/vscodeuser/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.106.2","date":"2025-11-19T16:56:50.023Z"}}
+2025-11-24 08:04:39.206 [info] Extension signature verification result for supermaven.supermaven: Success. Internal Code: 0. Executed: true. Duration: 560ms.
+2025-11-24 08:04:39.222 [info] Extracted extension to file:///home/vscodeuser/.vscode-server/extensions/supermaven.supermaven-1.1.12: supermaven.supermaven
+2025-11-24 08:04:39.270 [info] Renamed to /home/vscodeuser/.vscode-server/extensions/supermaven.supermaven-1.1.12
+2025-11-24 08:04:39.367 [info] Extension installed successfully: supermaven.supermaven file:///home/vscodeuser/.vscode-server/extensions/extensions.json
+2025-11-24 08:04:58.126 [error] #57: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 08:05:05.016 [error] #58: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 08:05:06.395 [error] #59: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 08:06:40.347 [info] [<unknown>][0b04c524][ManagementConnection] New connection established.
+2025-11-24 08:06:40.349 [info] [<unknown>][f65717a8][ExtensionHostConnection] New connection established.
+2025-11-24 08:06:40.352 [info] [<unknown>][f65717a8][ExtensionHostConnection] <1331> Launched Extension Host Process.
+2025-11-24 08:07:55.577 [info] [<unknown>][ee300dc1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-11-24 08:08:40.712 [info] [<unknown>][ee300dc1][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-11-24 08:08:40.714 [info] [<unknown>][f65717a8][ExtensionHostConnection] The client has reconnected.
+2025-11-24 08:09:31.664 [info] [<unknown>][0b04c524][ManagementConnection] The client has reconnected.
+2025-11-24 08:13:40.836 [info] [<unknown>][ee300dc1][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-11-24 08:13:40.843 [info] [<unknown>][bfc254e8][ExtensionHostConnection] <1197> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 08:16:56.243 [info] [<unknown>][78b98fec][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-11-24 08:20:12.885 [info] [<unknown>][78b98fec][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-11-24 08:20:12.886 [info] [<unknown>][0b04c524][ManagementConnection] The client has reconnected.
+2025-11-24 08:20:13.255 [info] [<unknown>][f65717a8][ExtensionHostConnection] The client has reconnected.
+2025-11-24 08:25:12.960 [info] [<unknown>][78b98fec][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-11-24 08:25:13.202 [info] [<unknown>][d7b849ea][ExtensionHostConnection] <957> Extension Host Process exited with code: 0, signal: null.
+2025-11-24 08:36:32.363 [info] [<unknown>][0b04c524][ManagementConnection] The client has reconnected.
+2025-11-24 08:36:37.762 [info] [<unknown>][f65717a8][ExtensionHostConnection] The client has reconnected.
+2025-11-24 08:54:33.572 [info] [<unknown>][0b04c524][ManagementConnection] The client has reconnected.
+2025-11-24 08:54:41.329 [info] [<unknown>][f65717a8][ExtensionHostConnection] The client has reconnected.
+2025-11-24 09:00:20.324 [error] #94: https://main.vscode-cdn.net/extensions/chat.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2025-11-24 09:00:20.327 [error] #95: https://main.vscode-cdn.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2025-11-24 09:01:33.328 [info] [<unknown>][f65717a8][ExtensionHostConnection] The client has reconnected.
+2025-11-24 09:01:33.542 [info] [<unknown>][0b04c524][ManagementConnection] The client has reconnected.
+2025-11-24 09:22:33.456 [info] [<unknown>][0b04c524][ManagementConnection] The client has reconnected.
+2025-11-24 09:22:33.493 [info] [<unknown>][f65717a8][ExtensionHostConnection] The client has reconnected.
+2025-11-24 09:34:44.769 [info] [<unknown>][0b04c524][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-24 09:34:44.811 [info] [<unknown>][f65717a8][ExtensionHostConnection] <1331> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,4 @@
+2025-11-24 13:06:05.072 [info] Log level: Info
+2025-11-24 13:06:05.375 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-11-24 13:06:47.772 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for bieeins/lara-docker: Error: No GitHub authentication session available.
+2025-11-24 13:13:41.630 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

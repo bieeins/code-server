@@ -1,0 +1,22 @@
+Initializing document watcher...
+Document watcher initialized
+/workspaces/docker/code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+/workspaces/docker/code-server/.github/workflows/docker-publish.yml: {"tabSize":2,"indentSize":2,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+/workspaces/docker/code-server/README.md: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+/workspaces/docker/code-server/.github/workflows/docker-publish.yml: {"tabSize":2,"indentSize":2,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/start.sh: {"tabSize":2,"indentSize":2,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/start copy.sh: {"tabSize":2,"indentSize":2,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/README.md: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/README.md: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/README.md: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/.github/workflows/docker-publish.yml: {"tabSize":2,"indentSize":2,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/docker-compose.yml: {"tabSize":2,"indentSize":2,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
+code-server/Dockerfile: {"tabSize":4,"indentSize":4,"insertSpaces":true,"cursorStyle":1,"lineNumbers":1}
