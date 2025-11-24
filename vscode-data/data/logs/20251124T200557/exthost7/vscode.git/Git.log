@@ -146,3 +146,6 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
   "stdout": "",
   "stderr": "fatal: bad revision 'refs/heads/master'\n"
 }
+2025-11-24 14:08:42.761 [info] > git ls-files --stage -- Dockerfile [8ms]
+2025-11-24 14:08:42.763 [info] > git cat-file -s 5630c8a503eb884769464999f8a8558f0036c41c [1ms]
+2025-11-24 14:08:42.838 [info] > git show --textconv :Dockerfile [14ms]

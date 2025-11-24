@@ -19,3 +19,6 @@
 2025-11-24 13:18:26.590 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2025-11-24 13:18:33.243 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
 	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+2025-11-24 14:02:30.985 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-24 14:02:30.985 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-11-24 14:02:31.439 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features

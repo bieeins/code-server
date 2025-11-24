@@ -47,3 +47,20 @@
 2025-11-24 13:38:03.203 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 2025-11-24 13:38:03.203 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 2025-11-24 13:53:14.026 [error] #133: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2025-11-24 15:06:07.333 [info] [<unknown>][dd2ab1ff][ExtensionHostConnection] The client has reconnected.
+2025-11-24 15:06:07.505 [info] [<unknown>][60c7d479][ExtensionHostConnection] The client has reconnected.
+2025-11-24 15:06:17.573 [info] [<unknown>][f0b5d6d7][ManagementConnection] The client has reconnected.
+2025-11-24 15:06:33.035 [info] [<unknown>][332b30d2][ManagementConnection] The client has reconnected.
+2025-11-24 15:37:26.639 [info] [<unknown>][f0b5d6d7][ManagementConnection] The client has reconnected.
+2025-11-24 15:37:26.829 [info] [<unknown>][dd2ab1ff][ExtensionHostConnection] The client has reconnected.
+2025-11-24 15:37:27.031 [info] [<unknown>][60c7d479][ExtensionHostConnection] The client has reconnected.
+2025-11-24 15:37:30.763 [info] [<unknown>][332b30d2][ManagementConnection] The client has reconnected.
+2025-11-24 17:13:59.243 [error] #258: https://main.vscode-cdn.net/extensions/chat.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2025-11-24 21:19:38.044 [info] [<unknown>][332b30d2][ManagementConnection] The client has reconnected.
+2025-11-24 21:19:38.265 [info] [<unknown>][f0b5d6d7][ManagementConnection] The client has reconnected.
+2025-11-24 21:19:38.564 [info] [<unknown>][60c7d479][ExtensionHostConnection] The client has reconnected.
+2025-11-24 21:19:38.741 [info] [<unknown>][dd2ab1ff][ExtensionHostConnection] The client has reconnected.
+2025-11-24 21:51:59.966 [info] [<unknown>][60c7d479][ExtensionHostConnection] The client has reconnected.
+2025-11-24 21:52:00.358 [info] [<unknown>][332b30d2][ManagementConnection] The client has reconnected.
+2025-11-24 21:52:02.584 [info] [<unknown>][dd2ab1ff][ExtensionHostConnection] The client has reconnected.
+2025-11-24 21:52:07.598 [info] [<unknown>][f0b5d6d7][ManagementConnection] The client has reconnected.
