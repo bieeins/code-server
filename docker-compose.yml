@@ -23,6 +23,7 @@ services:
     networks:
       - vscode-server-network
       - npm_npm_net
+      - apps_backend
 
 networks:
   vscode-server-network:
@@ -30,3 +31,6 @@ networks:
   npm_npm_net:
     external: true
     name: npm_npm_net
+  apps_backend:
+    external: true
+    name: apps_backend

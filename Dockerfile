@@ -19,17 +19,17 @@ RUN curl -fL "https://code.visualstudio.com/sha/download?build=stable&os=cli-alp
     && tar -xzf /tmp/vscode_cli_alpine_x64_cli.tar.gz -C /usr/local/bin \
     && rm /tmp/vscode_cli_alpine_x64_cli.tar.gz
 
-# Install PHP 8.2 extension
+# Install PHP 8.3 extension
 RUN apk update && apk add --no-cache \
-    php82 php82-cli php82-common php82-phar \
-    php82-mbstring php82-xml php82-xmlwriter php82-dom \
-    php82-ctype php82-json php82-tokenizer php82-fileinfo \
-    php82-openssl php82-curl php82-intl \
-    php82-pdo php82-pdo_mysql php82-mysqli \
-    php82-zip php82-simplexml php82-gd \
-    php82-session php82-iconv php82-posix \
-    php82-pcntl php82-opcache \
-    && ln -sf /usr/bin/php82 /usr/local/bin/php \
+    php83 php83-cli php83-common php83-phar \
+    php83-mbstring php83-xml php83-xmlwriter php83-dom \
+    php83-ctype php83-json php83-tokenizer php83-fileinfo \
+    php83-openssl php83-curl php83-intl \
+    php83-pdo php83-pdo_mysql php83-mysqli \
+    php83-zip php83-simplexml php83-gd \
+    php83-session php83-iconv php83-posix \
+    php83-pcntl php83-opcache \
+    && ln -sf /usr/bin/php83 /usr/local/bin/php \
     && php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
     && php composer-setup.php --install-dir=/usr/local/bin --filename=composer \
     && php -r "unlink('composer-setup.php');"
